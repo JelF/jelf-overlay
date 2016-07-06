@@ -12,5 +12,5 @@ KEYWORDS="~amd64 ~x86"
 
 src_prepare() {
 	cd "${S}"
-	epatch "${FILESDIR}/add-install.patch"
+	epatch "${FILESDIR}/0001-add-install-target.patch"
 }
